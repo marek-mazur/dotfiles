@@ -49,10 +49,11 @@ function _bash_prompt_get_host_user_path() {
     local CWD=$(echo $(pwd) | sed "s|${HOME}|~|")
     local HOSTNAME=$(hostname)
     local USERNAME=$(whoami)
+    local HOUR=$(date +%H:%M:%S)
 
     local USER_COLOR=$(_bash_prompt_get_user_color)
 
-    echo -e "${USER_COLOR}[👻 ${USERNAME}]$(tput sgr0) ${HOSTNAME} in $(tput setaf 6)${CWD}$(tput sgr0)"
+    echo -e "${USER_COLOR}[☠️ ${USERNAME}]$(tput setaf 3) ${HOUR} $(tput sgr0)${HOSTNAME} in $(tput setaf 6)${CWD}$(tput sgr0)"
 }
 
 function _bash_prompt_command() {

@@ -43,3 +43,6 @@ export CLICOLOR=1
 export LSCOLORS=cxfxcxdxbxegedabagacad
 export GOPATH=~/.go/
 export HISTSIZE=5000000
+
+export LANG="pl_PL.UTF-8"
+export LC_ALL=""
