@@ -1,5 +1,5 @@
 ---
   - name: brew tap
     homebrew_tap:
-      name: caskroom/versions,caskroom/cask,homebrew/php,caskroom/drivers
+      name: caskroom/cask,caskroom/versions,caskroom/drivers,homebrew/php
       state: present

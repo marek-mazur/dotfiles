@@ -5,6 +5,7 @@
       state: latest
     with_items:
       - autojump
+      - brew-cask-completion
       - chromedriver
       - csshx
       - ctags
@@ -18,14 +19,11 @@
       - mas
       - mobile-shell
       - mtr
-      - multitail
       - nano
       - ncdu
       - node
       - packer
       - packer-completion
-      - php56
-      - php-code-sniffer
       - pngquant
       - python
       - python3
