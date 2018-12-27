@@ -22,5 +22,5 @@
     with_items:
       - hosts
       - ssh
+      - aws
     when: dropbox_synced_stat.stat.exists is defined and dropbox_synced_stat.stat.exists == True
-

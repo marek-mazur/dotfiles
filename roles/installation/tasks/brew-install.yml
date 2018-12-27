@@ -5,13 +5,14 @@
       state: latest
     with_items:
       - autojump
-      - brew-cask-completion
+      - awscli
       - chromedriver
       - csshx
       - ctags
       - dialog
       - git
       - git-extras
+      - grv
       - htop
       - icdiff
       - jq
@@ -24,6 +25,7 @@
       - node
       - packer
       - packer-completion
+      - pipenv
       - pngquant
       - python
       - python3
@@ -36,4 +38,5 @@
       - trash
       - tree
       - watch
+      - webp
       - wget
