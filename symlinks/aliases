@@ -17,3 +17,5 @@ function spotlight () {
 }
 
 alias pico="nano"
+
+alias imageoptim='/Applications/ImageOptim.app/Contents/MacOS/ImageOptim'
