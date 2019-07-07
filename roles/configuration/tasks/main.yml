@@ -2,7 +2,7 @@
   - include: bash-symlinks.yml
   - include: link-application-support.yml
   - include: link-karabiner-configuration.yml
-  - include: link-controlplane-configuration.yml
+  - include: load-controlplane-configuration.yml
   - include: load-iterm2-configuration.yml
   - include: load-moom-configuration.yml
   - include: set-screenshot-path.yml
