@@ -1,4 +1,9 @@
 ---
+  - name: Tap to cask drivers
+    homebrew_tap:
+      name: homebrew/cask-drivers
+      state: 'present'
+
   - name: Install from cask
     homebrew_cask:
       name: [
