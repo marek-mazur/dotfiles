@@ -1,32 +1,32 @@
 ---
   - name: Install from cask
     homebrew_cask:
-      name: "{{ item }}"
+      name: [
+        'adobe-creative-cloud',
+        'alfred',
+        'cleanapp',
+        'controlplane',
+        'dropbox',
+        'docker',
+        'firefox',
+        'google-chrome',
+        'google-featured-photos',
+        'imageoptim',
+        'iterm2',
+        'istat-menus',
+        'java',
+        'karabiner-elements',
+        'logitech-options',
+        'macdown',
+        'plex-media-server',
+        'slack',
+        'spotify',
+        'transmit',
+        'vlc',
+        'virtualbox',
+        'visual-studio-code',
+        'wunderlist',
+        'zoomus'
+      ]
       state: present
     ignore_errors: yes
-    with_items:
-      - adobe-creative-cloud
-      - alfred
-      - cleanapp
-      - controlplane
-      - dropbox
-      - docker
-      - firefox
-      - google-chrome
-      - google-featured-photos
-      - imageoptim
-      - iterm2
-      - istat-menus
-      - java
-      - karabiner-elements
-      - logitech-options
-      - macdown
-      - plex-media-server
-      - slack
-      - spotify
-      - transmit
-      - vlc
-      - virtualbox
-      - visual-studio-code
-      - wunderlist
-      - zoomus
