@@ -2,18 +2,18 @@
   - name: Install and update python3 packages
     pip:
       executable: /usr/local/bin/pip3
-      name: "{{ item }}"
+      name: [
+        'setuptools',
+        'pip',
+        'virtualenv'
+      ]
       state: latest
-    with_items:
-      - setuptools
-      - pip
-      - virtualenv
 
   - name: Install and update python2 packages
     pip:
       executable: /usr/local/bin/pip
-      name: "{{ item }}"
+      name: [
+        'setuptools',
+        'pip'
+      ]
       state: latest
-    with_items:
-      - setuptools
-      - pip
