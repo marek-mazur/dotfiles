@@ -1,42 +1,32 @@
 ---
   - name: Install brew packages
     homebrew:
-      name: "{{ item }}"
-      state: latest
-    with_items:
-      - autojump
-      - awscli
-      - chromedriver
-      - csshx
-      - ctags
-      - dialog
-      - git
-      - git-extras
-      - grv
-      - htop
-      - icdiff
-      - jq
-      - launchctl-completion
-      - mas
-      - mobile-shell
-      - mtr
-      - nano
-      - ncdu
-      - node
-      - packer
-      - packer-completion
-      - pipenv
-      - pngquant
-      - python
-      - python3
-      - rbenv
-      - ruby-build
-      - selenium-server-standalone
-      - tmux
-      - tmux-cssh
-      - vagrant-completion
-      - trash
-      - tree
-      - watch
-      - webp
-      - wget
+      name: [
+        'autojump',
+        'awscli',
+        'dialog',
+        'git',
+        'grv',
+        'htop',
+        'icdiff',
+        'jq',
+        'launchctl-completion',
+        'mas',
+        'mobile-shell',
+        'mtr',
+        'nano',
+        'ncdu',
+        'node',
+        'packer',
+        'packer-completion',
+        'pipenv',
+        'pngquant',
+        'python3',
+        'rbenv',
+        'ruby-build',
+        'tmux-xpanes',
+        'trash',
+        'tree',
+        'watch',
+        'wget'
+    ]
