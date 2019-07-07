@@ -1,6 +1,5 @@
 ---
   - include: install-homebrew.yml
-  - include: brew-tap.yml
   - include: brew-install.yml
   - include: cask-install.yml
   - include: npm-install.yml
