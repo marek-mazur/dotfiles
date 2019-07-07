@@ -1,5 +1,0 @@
----
-  - name: brew tap
-    homebrew_tap:
-      name: homebrew/cask
-      state: present
