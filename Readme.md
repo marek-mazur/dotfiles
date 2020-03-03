@@ -20,7 +20,7 @@ My dotfiles for quick macOS/OS X.
 1. Run ansible:
 
     ```
-    git clone git@github.com:marek-mazur/dotfiles.git ~/.dotfiles
+    git clone https://github.com/marek-mazur/dotfiles.git ~/.dotfiles
     cd ~/.dotfiles
     $(python -m site --user-base)/bin/ansible-playbook --ask-become-pass -i local.hosts playbook.yml
     ```
